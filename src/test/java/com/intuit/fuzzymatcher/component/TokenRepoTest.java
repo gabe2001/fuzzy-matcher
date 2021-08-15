@@ -3,7 +3,6 @@ package com.intuit.fuzzymatcher.component;
 import com.intuit.fuzzymatcher.domain.*;
 import com.intuit.fuzzymatcher.exception.MatchException;
 import org.junit.Assert;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.text.DateFormat;
@@ -15,7 +14,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
-
 
 public class TokenRepoTest {
 

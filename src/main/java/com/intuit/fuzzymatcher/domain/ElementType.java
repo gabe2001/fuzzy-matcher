@@ -2,7 +2,6 @@ package com.intuit.fuzzymatcher.domain;
 
 
 import java.util.function.Function;
-import java.util.stream.Stream;
 
 import static com.intuit.fuzzymatcher.domain.MatchType.EQUALITY;
 import static com.intuit.fuzzymatcher.domain.MatchType.NEAREST_NEIGHBORS;
@@ -24,7 +23,7 @@ public enum ElementType {
     DATE,
     AGE;
 
-    protected Function getPreProcessFunction() {
+    Function getPreProcessFunction() {
         switch (this) {
             case NAME:
                 return namePreprocessing();

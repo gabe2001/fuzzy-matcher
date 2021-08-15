@@ -1,6 +1,5 @@
 package com.intuit.fuzzymatcher.domain;
 
-import java.util.Comparator;
 import java.util.Objects;
 
 /**
